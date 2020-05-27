@@ -1,0 +1,117 @@
+*{
+    margin:0;
+}
+#logo{
+    height: 70PX;
+    margin-top:20px;
+    margin-left:20px;
+}
+body{
+     background: linear-gradient(#FFFFFF,#ffe6e6,#A9A9A9);
+}
+#backcardimg{
+    margin-left:25%;
+    width:75%;
+}
+#loginbody{
+    position:absolute;
+    width:70%;
+    height:80%;
+    top:10%;
+    left:15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 40px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+#leftcontent{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    width:60%;
+    height:100%;
+    background-color: red;
+    background-image: url(icon/714773_1920_1080.jpg);
+}
+#rightcontent{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    float: right;
+    width:40%;
+    height:100%;
+}
+.details{
+    width:100%;
+    height:5%;
+    margin-top: 15%;
+     font-variant: small-caps;
+    font-size: 15px;
+}
+
+#loginform{
+    margin: auto;
+    margin-top:21%;
+  width:70%;  
+}
+#firstname{
+    float: left;
+        display: block;
+   border: 0;
+  outline: 0;
+    width: 46%;
+    margin-right: 4%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+}
+#lastname{
+    display: inline;
+   border: 0;
+  outline: 0;
+    width: 46%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+    
+}
+#username{
+    display: block;
+   border: 0;
+  outline: 0;
+    width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+    
+}
+#phoneno{
+    display: block;
+   border: 0;
+  outline: 0;
+    width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+    
+}
+#password{
+   display: block;
+   border: 0;
+  outline: 0;
+    width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+}
+
+
+input[type="submit"]{
+    clear: both;
+    margin-top:50px;
+    display: block;
+     background: linear-gradient(red,#ff8080);
+    border:0;
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    clear:both;
+}
+}

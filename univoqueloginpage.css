@@ -1,0 +1,127 @@
+*{
+    margin:0;
+}
+#logo{
+    height: 70PX;
+    margin-top:20px;
+    margin-left:20px;
+}
+body{
+     background: linear-gradient(#FFFFFF,#ffe6e6,#A9A9A9);
+}
+#backcardimg{
+    margin-left:25%;
+    width:75%;
+}
+#loginbody{
+    position:absolute;
+    width:70%;
+    height:80%;
+    top:10%;
+    left:15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 40px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+#leftcontent{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    width:60%;
+    height:100%;
+    background-color: red;
+    background-image: url(icon/714773_1920_1080.jpg);
+}
+#rightcontent{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    float: right;
+    width:40%;
+    height:100%;
+}
+details{
+    width:100%;
+    height:5%;
+    margin-top: 10%;
+    
+}
+
+#loginform{
+    margin: auto;
+    margin-top:37%;
+  width:70%;  
+}
+#email{
+    display: block;
+   border: 0;
+  outline: 0;
+    width: 100%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+    
+}
+#password{
+    width: 100%;
+    display: block;
+    border: 0;
+  outline: 0;
+    margin-top:20%;
+  background: transparent;
+  border-bottom: 2px solid #ff8080;
+    font-variant: small-caps;
+}
+#remember{
+    float: left;
+    width:15px;
+    height:15px;
+    margin-top:7%;
+    outline: 2px solid Red;
+    margin-right:6px;
+}
+#labfr{
+    margin-top:7%;
+    float: left;
+    font-size: 13px;
+    font-family: calibri;
+}
+#fp{
+    font-size:13px;
+    float: right;
+    margin-top:7%;
+    text-decoration: none;
+    font-family: calibri;
+    color:red;
+}
+#loginbutton{
+    clear: both;
+    margin-top:80px;
+    display: block;
+     background: linear-gradient(red,#ff8080);
+    border:0;
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    clear:both;
+}
+#signuplabel{
+    display: block;
+    font-size:14px;
+    margin-top: 7%;
+    font-family: calibri;
+    margin-left:65px;
+    font-weight: bold;
+    color:red;
+}
+.registration{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    float: right;
+    width:40%;
+    height:100%;
+
+}

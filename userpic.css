@@ -1,0 +1,110 @@
+*{
+    margin:0;
+}
+#logo{
+    height: 70PX;
+    margin-top:20px;
+    margin-left:20px;
+}
+body{
+     background: linear-gradient(#FFFFFF,#ffe6e6,#A9A9A9);
+}
+#backcardimg{
+    margin-left:25%;
+    width:75%;
+}
+#loginbody{
+    position:absolute;
+    width:70%;
+    height:80%;
+    top:10%;
+    left:15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 10px 40px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+#leftcontent{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    width:60%;
+    height:100%;
+    background-color: red;
+    background-image: url(icon/714773_1920_1080.jpg);
+}
+#rightcontent{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    float: right;
+    width:40%;
+    height:100%;
+}
+.details{
+    width:100%;
+    height:5%;
+    margin-top: 15%;
+     font-variant: small-caps;
+    font-size: 15px;
+}
+
+#loginform{
+    margin: auto;
+    margin-top:21%;
+  width:70%;  
+}
+#imageup{
+    width: 70%;
+    margin-left: 15%;
+    border-radius:100px;
+    border:4px solid lightgreen;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="submit"]{
+    clear: both;
+    margin-top:30px;
+    display: block;
+     background: linear-gradient(#0033cc,#668cff);
+    border:0;
+    width: 100%;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    clear:both;
+}
+#choosedp{
+    clear: both;
+    margin-top:50px;
+    display: block;
+     background: linear-gradient( #009933,#00e64d);
+    border:0;
+    width: 100%;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    clear:both;
+}
+#quote{
+    opacity: 0.5;
+    color: white;
+    font-family: calibri;
+    font-size: 30px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    font-variant: small-caps;
+}
+#qcard{
+    opacity: 0.6;
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 30px;
+    margin-top: 16px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

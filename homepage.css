@@ -1,0 +1,295 @@
+body {
+    margin:0;
+    font-family:Arial;
+    
+    
+}
+
+.header{
+    height: 200px;
+    width: 100%;
+    background-image: url(icon/QAheader.jpg);
+}
+
+#logo{
+    transition: 0.5s;
+    font-size: 50px;
+    position: absolute;
+    top:115px;
+    left: 20px;
+    font-family: Copperplate gothic;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+
+
+#postpanel{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: antiquewhite;
+    width:700px;
+    height:250px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    z-index: -1;
+}
+#posttxt{
+    clear: left;
+    height: 100px;
+    width:60%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size:16px;
+    z-index: -1;
+}
+.question{
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: antiquewhite;
+    width:700px;
+    height:125px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+.postpic{
+    width:20%;
+    height:30px;
+    background-color: aqua;
+}
+#leftcont{
+    float: left;
+    width: 18%;
+    height:900px;
+    display: block;
+    background-image: url(icon/714773_1920_1080.jpg);
+}
+/*side Navigation starts here */
+
+.SideNavigation{
+    top:0;
+    width:0;
+    position: fixed;
+    height: 100%;
+    background-image: url(icon/714773_1920_1080.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.SideNavigation a{
+    display: block;
+    padding-left: 34px;
+    padding-top:7.5px;
+    padding-bottom: 7.5px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: "Lato", sans-serif;
+    transition: 0.8s;
+    
+}
+#contentbody{
+    z-index: -7;
+    transition: 0.5s;
+}
+.SideNavigation a:hover{
+    color: #d1e0e0;
+    background-image: url(icon/dark2.jpg);
+}
+.SideNavigation .close{
+    padding-top: 0px;
+    margin-left: 180px;
+    font-size: 35px;
+    padding-right: 15px;
+    
+}
+.SideNavigation .close:hover{
+    color:#d1e0e0;
+}
+
+@media screen and (max-height:450px){
+    .SideNavigation a{
+        font-size:20px;
+    }
+    .SideNavigation .close{
+        font-size:30px;
+    }
+}
+#Askbutton{
+    float: left;
+    width: 120px;
+    height: 39px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-image: url(icon/714773_1920_1080.jpg);
+    border: 0;
+    color: white;
+    font-size:15px;
+}
+
+.uploadbtn{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    background-image: url(icon/714773_1920_1080.jpg);
+    float: left;
+    margin-left: 30px;
+    border:0;
+    border-radius: 5px;
+}
+#uploadicon{
+width: 30px;
+    float: right;
+}
+label{
+    padding: 5px;
+    float: left;
+    color:white;
+    font-size: 15px;
+}
+
+@media screen and (max-width:450px){
+    #postpanel{
+        width: 350px;
+        height:300px;
+        z-index: -1;
+    }
+    #posttxt{
+        height: 120px;
+        width: 80%;
+        z-index: -1;
+    }
+    .uploadbtn{
+        margin-top: 30px;
+    }
+    
+    #Askbutton{
+        width: 120px;
+    height: 39px;
+        margin-left: 47px;
+        margin-top: 30px;
+    }
+    
+    .question{
+      width: 350px;
+        height:300px;
+}
+}
+/*topnav style*/
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+    background-image: url(icon/wallpaper2you.jpg);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-image: url(icon/714773_1920_1080.jpg);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-image: url(icon/dark2.jpg);
+  color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}

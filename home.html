@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="homepage.css" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+<div id="contentbody">
+<div class="header">
+    <h1 id="logo" style="margin: 0; padding: 0;">UniVoque</h1>
+</div>
+<div class="topnav" id="myTopnav">
+  <a href="javascript:void(0);" class="active" onclick="OpenNavigation()" class="sideicon">&#9776;</a>    
+  <a href="#home" >Home</a>
+  <a href="#hc">Healthcare</a>
+  <a href="#tech">Technology</a> 
+  <div class="dropdown">
+    <button class="dropbtn">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">About</a>
+      <a href="#">Help</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <a href="#about">Profile</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!--<div id="leftcont">
+
+</div>-->
+<div id="postpanel">
+    <form>
+        <h2 style="float: left; color:#ff4d4d; margin-left:20px; z-index: -1;">Ask Your Question Here</h2>   
+         <textarea id="posttxt" placeholder="Enter Your Querry" name="posttxt"></textarea>
+         <input type="file" name="postpic" style="display: none;" id="postpic"/>
+        <button class="uploadbtn">
+        <img src="icon/if_icon-93-inbox-upload_314777.png" id="uploadicon"/>
+        <label for="postpic">Attach Pic</label>
+        </button>
+        <input type="submit" value="Ask" id="Askbutton"/>
+        
+    </form>
+</div>
+<div class="question">
+    
+</div>
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
+
+</div>
+<!-- side navigation starts here-->
+<div id="sidenavigation" class="SideNavigation">
+  <a href="javascript:void(0)" class="close" onclick="CloseNavigation()">&times;</a>
+  <a href="#">About</a>
+  <a href="http://localhost/qnawebsiteproject/univoqueloginpage.php">Login</a>
+  <a href="#">Settings</a>
+  <a href="#">Contact</a>
+</div>
+<script>
+    function OpenNavigation(){
+        document.getElementById("sidenavigation").style.width="250px";
+        document.getElementById("contentbody").style.marginLeft="250px";
+        document.getElementById("logo").style.marginLeft="250px";
+    }
+    function CloseNavigation(){ 
+        document.getElementById("sidenavigation").style.width="0";
+        document.getElementById("contentbody").style.marginLeft="0";
+        document.getElementById("logo").style.marginLeft="0";
+    }
+    
+</script>
+
+</body>
+</html>
